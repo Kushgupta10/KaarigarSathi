@@ -1,0 +1,70 @@
+.hero-top{
+    height: 65vh;
+    display: flex;
+    position: relative;
+    
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+    padding-left: 20px;
+    line-height: 1.1;
+}
+.hero-left h1{
+    color: #090909;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 10px ;
+}
+
+
+
+.hero-customer-btn{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 10%;
+    gap: 15px;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 450px;
+    margin-right: 600px;
+
+    color: rgb(93, 216, 216);
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.hero-karigar-btn{
+
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 55%;
+    gap: 5px;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 450px;
+    margin-right: 400px;
+    background: white;
+    color: rgb(93, 216, 216);
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
